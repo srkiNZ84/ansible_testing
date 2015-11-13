@@ -1,0 +1,6 @@
+- name: In role A
+  debug: msg="hello A"
+
+- name: Include smoke tests
+  tags: ['tests','smoketests','smoketest','test']
+  include: tests.yml

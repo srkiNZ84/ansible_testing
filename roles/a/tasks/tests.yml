@@ -1,0 +1,4 @@
+- name: Testing A
+  tags:
+    - smoketest
+  debug: msg="smoketesting A"

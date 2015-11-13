@@ -1,0 +1,7 @@
+- name: In role B
+  debug: msg="hello B"
+
+- name: Test role B
+  tags:
+    - smoketest
+  debug: msg="smoketest B"
