@@ -16,6 +16,8 @@ Run role A main tasks and tests:
 
 Run tests only for role A:
 ```ansible-playbook -i hosts smoke_test.yml -t role_a_smoketest```
+
 Or:
+
 ```ansible-playbook -i hosts smoke_test.yml -t smoketests --skip-tags bison,caribou```
 second way is not ideal, as you have to know the full list of tags to skip.
