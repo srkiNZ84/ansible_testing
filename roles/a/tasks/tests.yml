@@ -1,4 +1,5 @@
 - name: Testing A
   tags:
     - smoketest
+    - role_a_smoketest
   debug: msg="smoketesting A"
