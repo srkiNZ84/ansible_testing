@@ -13,5 +13,5 @@ Run role A main tasks and tests:
 ```ansible-playbook -i hosts smoke_test.yml -t aardvark```
 
 Run tests only for role A:
-```ansible-playbook -i hosts smoke_test.yml -t aardvark,smoketests --skip-tags bison,caribou```
+```ansible-playbook -i hosts smoke_test.yml -t smoketests --skip-tags bison,caribou```
 
